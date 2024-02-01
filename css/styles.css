@@ -1,6 +1,16 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
   background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 img {
@@ -20,23 +30,24 @@ img {
 /* Main-content */
 
 .main-content {
-  padding: 88px;
+  padding: 72px;
 }
 
+.education,
 .main-content-title {
   color: #000;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
 }
 /* About me */
 
 .my-profession {
   margin-bottom: 20px;
   color: #000;
-  font-size: 14px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
@@ -53,8 +64,8 @@ img {
 }
 
 .my-descr {
-  color: #595959;
-  font-size: 14px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -62,7 +73,7 @@ img {
 }
 
 .about-me-container {
-  padding: 40px;
+  padding: 72px;
   background-color: #b4dcea;
 }
 
@@ -70,7 +81,7 @@ img {
 
 .project-item {
   color: #000;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -82,21 +93,20 @@ img {
 }
 
 .my-projects-container {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .project-item-descr {
-  color: #595959;
-  font-family: Montserrat;
-  font-size: 14px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
 
 .project-item-link {
-  color: #005fff;
-  font-size: 14px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -109,35 +119,41 @@ img {
   margin-bottom: 44px;
 }
 
+.education-position,
 .work-experience-position {
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
   margin: 0;
 }
 
+.education-place {
+  margin-bottom: 8px;
+}
+
 .work-experience-place {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .work-experience-company {
-  color: #6d9bf5;
+  color: #161d2a;
 }
 
+.education-period,
 .work-period {
-  color: #a8a8a8;
-  font-size: 12px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 12px 0 8px 0;
+  margin: 8px 0 8px 0;
 }
 
 .work-duties {
-  color: #595959;
-  font-size: 14px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -148,59 +164,19 @@ img {
   margin: 0;
 }
 
-/* Education */
-
-.education {
-  color: #000;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 44px;
-}
-
-.education-place {
-  color: #6d9bf5;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 12px;
-}
-
-.education-position {
-  color: #000;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 12px;
-}
-
-.education-period {
-  color: #a8a8a8;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 12px;
+.education-container {
+  margin-bottom: 24px;
 }
 
 /* Sidebar */
 
 .sidebar {
-  width: 480px;
+  width: 540px;
   background: #b4dcea;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 24px;
-}
-
-/* My photo */
-
-.my-photo {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 /* contacts-container */
@@ -223,28 +199,28 @@ img {
 /* contacts-type */
 .contacts-type {
   color: #161d2a;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   margin-right: 8px;
 }
 
-.contacts-item {
-  margin: 0;
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .contacts-number {
   color: #161d2a;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
 
 .contacts-email {
-  color: #2979ff;
-  font-size: 14px;
+  color: #161d2a;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -258,12 +234,12 @@ img {
 }
 
 .skills-list-item {
-  color: #6d9bf5;
+  color: #161d2a;
 }
 
 .skills-list-text {
   color: #161d2a;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
