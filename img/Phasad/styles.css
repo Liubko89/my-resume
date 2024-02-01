@@ -1,0 +1,17 @@
+/* Wrapper */
+
+.wrapper{
+    flex-direction: column-reverse;
+}
+
+
+
+
+/*Main content */
+.main-content{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #774f4f;
+    padding: 88px;
+    
+}
+
