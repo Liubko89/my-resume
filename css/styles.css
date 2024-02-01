@@ -1,262 +1,271 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #E5E5E5;
-     padding: 40px;
-    }
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
 
-.wrapper{
-    display: flex;
-    flex-direction: row-reverse;
-    background: #ffffff;
-    width: 1200px;
-    margin: 0 auto;
-    box-shadow: 0px 4px 4px 0px rgba(20, 20, 20, 0.534);
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(20, 20, 20, 0.534);
 }
 
 /* Main-content */
 
-.main-content{
-    padding: 88px;
+.main-content {
+  padding: 88px;
 }
 
-.main-content-title{
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 27px;
-    margin: 0 0 8px 0;
+.main-content-title {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 0 0 8px 0;
 }
 /* About me */
 
-.my-profession{
-    margin-bottom: 20px;
-    color: #000;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 17px;
-    margin: 0 0 18px 0;
+.my-profession {
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 0 0 18px 0;
 }
 
-.my-name{
-    color: #000;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 55px;
-    margin: 0 0 28px 0;
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 0 0 28px 0;
 }
 
-.my-descr{
-    color: #595959;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 525px;
+.my-descr {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 525px;
 }
 
-.about-me-container{
-    margin-bottom: 64px;
+.about-me-container {
+  padding: 40px;
+  background-color: #b4dcea;
 }
 
 /* Projects */
 
-.project-item{
-    color: #000;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
+.project-item {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
 }
 
-.project-list{
-    padding: 0 0 0 16px;
-    margin: 0 0 0 0;
+.project-list {
+  padding: 0 0 0 16px;
+  margin: 0 0 0 0;
 }
 
-.my-projects-container{
-
-    margin-bottom: 48px;
+.my-projects-container {
+  margin-bottom: 48px;
 }
 
-.project-item-descr{
-    color: #595959;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+.project-item-descr {
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.project-item-link{
-    color: #005FFF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
+.project-item-link {
+  color: #005fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
 }
 
 /* Work experience */
 
-.work-experience-container{
-    margin-bottom: 44px;
+.work-experience-container {
+  margin-bottom: 44px;
 }
 
-.work-experience-position{
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    margin: 0;
+.work-experience-position {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
 }
 
-.work-experience-place{
-    margin-bottom: 16px;
+.work-experience-place {
+  margin-bottom: 16px;
 }
 
-.work-experience-company{
-    color: #6D9BF5;
+.work-experience-company {
+  color: #6d9bf5;
 }
 
-.work-period{
-    color: #A8A8A8;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 12px 0 8px 0;
+.work-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 12px 0 8px 0;
 }
 
-.work-duties{
-    color: #595959;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+.work-duties {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.work-duties-list{
-    padding: 0 0 0 16px;
-    margin: 0;
+.work-duties-list {
+  padding: 0 0 0 16px;
+  margin: 0;
 }
 
 /* Education */
 
-.education{
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 44px;
+.education {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 44px;
 }
 
-.education-place{
-    color: #6D9BF5;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 12px;
+.education-place {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 12px;
 }
 
-.education-position{
-    color: #000;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 12px;
+.education-position {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 12px;
 }
 
-.education-period{
-    color: #A8A8A8;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 12px;
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
 }
 
 /* Sidebar */
 
-.sidebar{
-    width: 370px;
-    background: #e0ebfe;
+.sidebar {
+  width: 480px;
+  background: #b4dcea;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 24px;
 }
 
 /* My photo */
 
-.my-photo{
-    margin-top: 40px;
+.my-photo {
+  margin-top: 40px;
 }
 
 /* contacts-container */
 
 .contacts-container,
 .tech-skills-container,
-.soft-skills-container{
-    margin: 48px 0 0 40px;
+.soft-skills-container {
+  margin: 48px 0 0 40px;
 }
 
-.sidebar-title{
-    color: #161D2A;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 8px;
+.sidebar-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
 }
 
 /* contacts-type */
-.contacts-type{
-    color: #161D2A;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    margin-right: 8px;
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
 }
 
-.contacts-item{
-    margin: 0;
+.contacts-item {
+  margin: 0;
 }
 
-.contacts-number{
-    color: #161D2A;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+.contacts-number {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.contacts-email{
-    color: #2979FF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+.contacts-email {
+  color: #2979ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* Skills */
 
-.skills-list{
-    margin: 0;
-    padding: 0 0 0 16px;
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 16px;
 }
 
-.skills-list-item{
-  color:#6D9BF5;  
+.skills-list-item {
+  color: #6d9bf5;
 }
 
-.skills-list-text{
-    color: #161D2A;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+.skills-list-text {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
