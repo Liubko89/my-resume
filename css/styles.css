@@ -30,7 +30,7 @@ img {
 /* Main-content */
 
 .main-content {
-  padding: 72px;
+  padding: 40px 72px 40px 72px;
 }
 
 .education,
@@ -41,6 +41,7 @@ img {
   font-weight: 700;
   line-height: 27px;
   margin: 0 0 16px 0;
+  text-transform: uppercase;
 }
 /* About me */
 
@@ -73,7 +74,7 @@ img {
 }
 
 .about-me-container {
-  padding: 72px;
+  padding: 40px 72px 40px 72px;
   background-color: #b4dcea;
 }
 
@@ -194,6 +195,7 @@ img {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 /* contacts-type */
