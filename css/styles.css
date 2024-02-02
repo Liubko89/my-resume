@@ -30,7 +30,7 @@ img {
 /* Main-content */
 
 .main-content {
-  padding: 40px 72px 40px 72px;
+  padding: 40px;
 }
 
 .education,
@@ -46,13 +46,11 @@ img {
 /* About me */
 
 .my-profession {
-  margin-bottom: 20px;
   color: #000;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
-  margin: 0 0 18px 0;
 }
 
 .my-name {
@@ -61,7 +59,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 55px;
-  margin: 0 0 28px 0;
+  margin-bottom: 16px;
 }
 
 .my-descr {
