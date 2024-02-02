@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.04em;
   background-color: #fff;
+  margin: 0;
 }
 
 h1,
@@ -24,7 +25,6 @@ img {
   flex-direction: row-reverse;
   background: #ffffff;
   width: 1200px;
-  margin: 0 auto;
 }
 
 /* Main-content */
