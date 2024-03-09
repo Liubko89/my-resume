@@ -30,7 +30,7 @@ img {
 /* Main-content */
 
 .main-content {
-  padding: 64px 88px 64px 64px;
+  padding: 48px 88px 10px 64px;
 }
 
 .education,
@@ -72,7 +72,7 @@ img {
 }
 
 .about-me-container {
-  padding: 64px 72px 64px 72px;
+  padding: 44px 72px 48px 72px;
   background-color: #b4dcea;
 }
 
@@ -170,7 +170,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 64px 40px 254px 40px;
+  padding: 48px 40px 0 40px;
 }
 
 /* contacts-container */
